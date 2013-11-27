@@ -4,9 +4,9 @@ block auth
   form.signin.form-horizontal(action="/users/session", method="post")
     p.error= message
     .control-group
-      label.control-label(for='username') Username
+      label.control-label(for='email') Email
       .controls
-        input#username(type='text', name="username", placeholder='Username')
+        input#email(type='text', name="email", placeholder='Email')
 
     .control-group
       label.control-label(for='password') Password
