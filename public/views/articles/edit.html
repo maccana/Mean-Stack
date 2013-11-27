@@ -1,4 +1,6 @@
 <section data-ng-controller="ArticlesController" data-ng-init="findOne()">
+	<button ng-click="remove(article._id)">delete</button>
+	<h3>{{article.id}}</h3>
 	<form class="form-horizontal" data-ng-submit="update()">
 		<div class="control-group">
 			<label class="control-label" for="title">Title</label>
@@ -19,7 +21,9 @@
 		<div class="control-group">
 			<div class="controls">
 				<input type="submit" class="btn">
+
 			</div>
+
 		</div>
 	</form>
 </section>

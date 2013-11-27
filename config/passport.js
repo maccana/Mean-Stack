@@ -24,12 +24,14 @@ module.exports = function(passport) {
 
     //Use local strategy
     passport.use(new LocalStrategy({
-            usernameField: 'email',
+            usernameField: 'username',
             passwordField: 'password'
         },
-        function(email, password, done) {
+        // change username to email if doesn't work
+        function(username, password, done) {
             User.findOne({
-                email: email
+                //email: email
+                   username: username 
             }, function(err, user) {
                 if (err) {
                     return done(err);
