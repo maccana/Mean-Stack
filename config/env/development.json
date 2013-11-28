@@ -1,6 +1,5 @@
 {
-    "db": "mongodb://mainadmin:password123@paulo.mongohq.com:10010/app19680551
-",
+    "db": "mongodb://mainadmin:password123@paulo.mongohq.com:10010/app19680551",
     "app": {
         "name": "MEAN - A Modern Stack - Development"
     },
