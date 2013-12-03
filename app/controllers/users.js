@@ -43,7 +43,8 @@ exports.signout = function(req, res) {
  * Session
  */
 exports.session = function(req, res) {
-    
+     res.redirect('/');
+   
 };
 
 /**
@@ -71,8 +72,8 @@ exports.create = function(req, res) {
  *  Show profile
  */
 exports.show = function(req, res) {
+    //console.log('hi');
     var user = req.profile;
-
     res.render('users/show', {
         title: user.name,
         user: user

@@ -17,6 +17,9 @@ window.app.config(['$routeProvider',
         when('/', {
             templateUrl: 'views/index.html'
         }).
+        when('/profile/create', {
+            templateUrl: 'views/profile.html'
+        }).
         otherwise({
             redirectTo: '/'
         });
