@@ -12,7 +12,7 @@ Must be changed back to Heroku version for remote testing.
 
 For local MongoDB setup on mac osx:
 
-Install using Brew or manual.Cd 
+Install using Brew or manual. 
 http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
 
 Extract and copy to specified folder.
