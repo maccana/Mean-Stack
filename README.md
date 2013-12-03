@@ -3,6 +3,7 @@ Javascript based application framework using the MEAN stack
 
 TO DO:
 
+- Profile controller not recognised error in console
 - Fix routes to display appropriate pre/post sign in/up views
 
 NOTE: Current DB setting in config/env/development.js is set to local MongoDB.
